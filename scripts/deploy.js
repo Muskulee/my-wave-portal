@@ -4,7 +4,7 @@ const main = async () => {
     const accountBalance = await deployer.getBalance();
 
 
-    console.log(`I just deployed contract locally with account`, deployer.address);
+    console.log(`I just deployed contract locally with account:`, deployer.address);
     console.log("Account balance", accountBalance.toString());
 
     const Token = await hre.ethers.getContractFactory("WavePortal");
