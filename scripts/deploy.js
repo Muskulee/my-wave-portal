@@ -1,8 +1,8 @@
 const main = async () => {
 
+
     const [deployer]= await hre.ethers.getSigners();
     const accountBalance = await deployer.getBalance();
-
 
     console.log(`I just deployed contract locally with account:`, deployer.address);
     console.log("Account balance", accountBalance.toString());

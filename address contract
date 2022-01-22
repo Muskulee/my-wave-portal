@@ -1,0 +1,5 @@
+user@users-MacBook-Pro my-wave-portal % npx hardhat run scripts/deploy.js --network rinkeby
+I just deployed contract locally with account: 0xe0CA322a4D86c742101F8469228380991e61e864
+Account balance 99011216486816220
+WavePortal Address 0x268B56bD1dAb11bC26dff66d1FE94194FA81535F
+user@users-MacBook-Pro my-wave-portal % 
